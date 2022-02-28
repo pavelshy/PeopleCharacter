@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             People tom = new Student("Tom","CharacterPositiv");
-            People kate = new Student("Tom", "CharacterNegativ");
+            People kate = new Student("Kate", "CharacterNegativ");
 
             tom.PrintCharacter();
             kate.PrintCharacter();     
