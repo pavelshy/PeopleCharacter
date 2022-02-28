@@ -8,9 +8,7 @@
             People kate = new Student("Tom", "CharacterNegativ");
 
             tom.PrintCharacter();
-            kate.PrintCharacter();
-         
-           
+            kate.PrintCharacter();     
         }
     }
     abstract class People
@@ -21,13 +19,7 @@
         {
             _name = name;
         }
-        public void PrintName()
-        {
-            Console.WriteLine($"Name: {_name}");
-        }
         public abstract void PrintCharacter();
-        
-
     }
     class Student : People
     {
@@ -48,7 +40,4 @@
             }
         }
     }
-
-
-
 }
